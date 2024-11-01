@@ -1,6 +1,6 @@
- import type { ModelTask } from '@/models/ModelTask'
+ import type { Task } from '@/models/Task'
 
  export interface TaskState {
   loading: boolean,
-   data : ModelTask[],
+   data : Task[],
  }
